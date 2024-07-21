@@ -1,18 +1,17 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "dist"
-        }
+  "builds": [
+    {
+      "src": "modern-portfolio/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "modern-portfolio/dist"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
-    ]
-  }
-  
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "modern-portfolio/index.html"
+    }
+  ]
+}
