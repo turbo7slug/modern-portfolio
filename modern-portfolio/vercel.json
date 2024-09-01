@@ -9,9 +9,10 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "modern-portfolio/dist/index.html"
-    }
-  ]
+  {
+    "src": "/(.*)",
+    "dest": "/index.html"
+  }
+]
+
 }
