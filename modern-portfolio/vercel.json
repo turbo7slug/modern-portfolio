@@ -11,7 +11,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "modern-portfolio/index.html"
+      "dest": "modern-portfolio/dist/index.html"
     }
   ]
 }
